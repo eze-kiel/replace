@@ -13,7 +13,7 @@ replace expr:replace [filename]
 Let's imagine that we have the following text file called `quote.txt`:
 
 ```
-Make it correct, make it clear, make it conscice, make it fast. In that order.
+Make it correct, make it clear, make it concise, make it fast. In that order.
 - Wes Dyer
 ```
 
@@ -21,7 +21,7 @@ We cat use `replace` directly by providing it the filename:
 
 ```
 $ replace correct:perfect quote.txt
-Make it perfect, make it clear, make it conscice, make it fast. In that order.
+Make it perfect, make it clear, make it concise, make it fast. In that order.
 - Wes Dyer
 ```
 
@@ -29,7 +29,7 @@ Make it perfect, make it clear, make it conscice, make it fast. In that order.
 
 ```
 $ cat quote.txt | replace correct:perfect
-Make it perfect, make it clear, make it conscice, make it fast. In that order.
+Make it perfect, make it clear, make it concise, make it fast. In that order.
 - Wes Dyer
 ```
 
