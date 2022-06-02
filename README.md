@@ -1,6 +1,6 @@
 # replace
 
-Small CLI utility that simplify `sed 's/expr/replace/g'`.
+Small CLI utility that simplifies `sed 's/expr/replace/g'`.
 
 ## Usage
 
